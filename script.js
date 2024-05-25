@@ -9,10 +9,10 @@ document.addEventListener('DOMContentLoaded', function() {
             const playerCountElement = document.getElementById('player-count');
 
             if (data.online) {
-                statusElement.textContent = 'Server is Online';
+                statusElement.textContent = 'Serveris ir Online';
                 playerCountElement.textContent = `Players online: ${data.players.online}`;
             } else {
-                statusElement.textContent = 'Server is Offline';
+                statusElement.textContent = 'Serveris ir Offline';
                 playerCountElement.textContent = '';
             }
         })
